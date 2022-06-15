@@ -1,0 +1,50 @@
+html {
+    font-family: fantasy;
+}
+main {
+    display: flex;
+}
+h1, h3 {
+    text-align: center;
+    margin: 1;
+}
+h2 {
+    background-color: antiquewhite;
+    margin: 1;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.info {
+    font-size:larger;
+    background-color: antiquewhite;
+}
+.selected {
+    background-color: antiquewhite;
+}
+section {
+    flex: 1;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+}
+ul, hr {
+    padding: 0;
+    margin: 1;
+}
+#volunteers, #assignedLists {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#form-section {
+    text-align: center;
+    background-color: bisque;
+}
+button {
+    
+}
